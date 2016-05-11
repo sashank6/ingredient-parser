@@ -1,0 +1,31 @@
+{
+  "name": "ingredient-parser",
+  "version": "0.0.0",
+  "description": "To identify and parse ingredients",
+  "main": "index.js",
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sashank6/ingredient-parser.git"
+  },
+  "keywords": [
+    "ingredient",
+    "ingredient-parser",
+    "ingredient",
+    "parser"
+  ],
+  "author": "Sashank Alladi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sashank6/ingredient-parser/issues"
+  },
+  "homepage": "https://github.com/sashank6/ingredient-parser#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^2.4.5",
+    "typescript": "^1.8.10"
+  }
+}
