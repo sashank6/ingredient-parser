@@ -1,3 +1,5 @@
 node_modules/
 ./src/ts/
 gulpfile.js
+typings.json
+typings/
