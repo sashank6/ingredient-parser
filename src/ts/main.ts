@@ -1,3 +1,3 @@
-import {readIngredients} from './readIngredients';
+import {checkIngredients} from './CheckIngredient';
 
-readIngredients();
+console.log(checkIngredients.search('cider'));
