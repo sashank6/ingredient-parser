@@ -3,10 +3,10 @@
 import fs=require('fs');
 import{utils} from './utils';
 
-var FILE_NAME='../../data/ingredients.dat';
+let FILE_NAME='./data.txt';
 
 
 export function readIngredients():string[]{
-    let data=utils.readFile(FILE_NAME);
+    let data=fs.readFileSync(FILE_NAME, 'utf8');
     return data;
 }
