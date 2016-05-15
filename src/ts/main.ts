@@ -5,5 +5,7 @@ import {parseHTML} from './parseHTML';
 
 
 
-let data=utils.readFile('./data/samplerecipe.txt');
-identifyIngredients(parseHTML(data));
+let recipe=utils.readFile('../../data/samplerecipe.txt');
+let parsedHTML=parseHTML(recipe);
+identifyIngredients(parsedHTML);
+

@@ -32,6 +32,7 @@
     "typings": "^0.8.1"
   },
   "dependencies": {
-    "hashmap": "^2.0.5"
+    "hashmap": "^2.0.5",
+    "ingredientparser": "0.0.3"
   }
 }
