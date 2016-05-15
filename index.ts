@@ -10,3 +10,4 @@ class INGPARSER{
     }    
 }
 
+export const ingparser=new INGPARSER();
